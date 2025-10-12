@@ -1,4 +1,4 @@
-import type { HoaContext } from 'hoa'
+import type { HoaMiddleware } from 'hoa'
 
 export interface ResponseTimeOptions {
   /**
@@ -18,8 +18,6 @@ export interface ResponseTimeOptions {
   suffix?: boolean
 }
 
-export type ResponseTimeMiddleware = (ctx: HoaContext, next: () => Promise<void>) => Promise<void>
-
-export function responseTime(options?: ResponseTimeOptions): ResponseTimeMiddleware
+export function responseTime(options?: ResponseTimeOptions): HoaMiddleware
 
 export default responseTime
