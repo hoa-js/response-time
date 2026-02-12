@@ -1,3 +1,7 @@
+## v0.1.3 / 2026-02-12
+
+- chore: remove tsup config
+
 ## v0.1.2 / 2026-02-12
 
 - refactor: use tsdown instead of tsup

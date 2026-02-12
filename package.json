@@ -1,6 +1,6 @@
 {
   "name": "@hoajs/response-time",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Response-Time middleware for Hoa.",
   "main": "./dist/cjs/response-time.cjs",
   "type": "module",
